@@ -11,5 +11,22 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
   </head>
   <body>
+    <div class="container">
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+			<img src="/img/help.webp" style="float:right;display:inline-block;" />
+      <img src="/img/setting.webp" style="float:right;display:inline-block;/>
+			<div class="jumbotron">
+				<h1>
+					LibearWork
+				</h1>
+			</div>
+      <form action="pages/workTableRegUser.php">
+      </form>
+      <form action="pages/addGroup.php>
+      </form>
+		</div>
+	</div>
+</div>
   </body>
 </html>
