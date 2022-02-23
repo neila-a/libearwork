@@ -23,7 +23,7 @@
 			</div>
       <form action="pages/workTableRegUser.php">
       </form>
-      <form action="pages/addGroup.php>
+      <form action="pages/addGroup.php">
       </form>
 		</div>
 	</div>
