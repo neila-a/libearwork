@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
@@ -14,8 +15,8 @@
     <div class="container">
 	<div class="row clearfix">
 		<div class="col-md-12 column">
-			<img src="/img/help.webp" style="float:left;display:inline-block;" />
-      <img src="/img/setting.webp" style="float:right;display:inline-block;/>
+			<img src="/img/help.webp" style="float:left;display:inline-block;" height="50px" width="50px" />
+      <img src="/img/setting.webp" style="float:right;display:inline-block; height="50px" width="50px" />
 			<div class="jumbotron">
 				<h1>
 					LibearWork
