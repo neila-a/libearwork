@@ -1,3 +1,9 @@
 #ldtitle {
 text-align: center;
 }
+
+.mainPageButton {
+display:inline-block;
+height:50px;
+width:50px;
+}
