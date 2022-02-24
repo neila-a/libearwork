@@ -18,7 +18,7 @@ require './include.php';
                     />
                     <a href="/pages/devdoc/">
                         <img
-                            src="/img/setting.webp"
+                            src="/img/document.webp"
                             style="float: right"
                             class="mainPageButton"
                         />
