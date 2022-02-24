@@ -14,7 +14,7 @@
     <div class="container">
 	<div class="row clearfix">
 		<div class="col-md-12 column">
-			<img src="/img/help.webp" style="float:right;display:inline-block;" />
+			<img src="/img/help.webp" style="float:left;display:inline-block;" />
       <img src="/img/setting.webp" style="float:right;display:inline-block;/>
 			<div class="jumbotron">
 				<h1>
