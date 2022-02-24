@@ -16,3 +16,12 @@ border-radius: 25px;
 .mainPageSubmitBtn {
 background-color: #3399ff;
 }
+
+footer {
+position: fixed;
+left: 10px;
+bottom: 5px;
+right: 10px;
+width: 100%;
+text-align: center;
+}
