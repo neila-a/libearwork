@@ -50,7 +50,7 @@
                         <h1 id="lbtitle">LibearWork</h1>
                     </div>
                     <form action="pages/workTableRegUser.php" class="mainPageForm">
-                        <p>    加入组</p>
+                        <p>加入组</p>
                         <hr />
                         <input name="groupID" type="text" />
                         <br />
@@ -58,9 +58,8 @@
                     </form>
                     <br />
                     <form action="pages/createNewGroup.php" class="mainPageForm">
-                        <p>    创建组</p>
+                        <p>创建组</p>
                         <hr />
-                        <p>    </p>
                         <input name="groupID" type="text" />
                         <br />
                         <button type="submit" class="mainPageSubmitBtn">创建</button>
