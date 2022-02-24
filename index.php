@@ -10,13 +10,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
     <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="/style.css">
   </head>
   <body>
     <div class="container">
 	<div class="row clearfix">
 		<div class="col-md-12 column">
-			<img src="/img/help.webp" style="float:left;display:inline-block;" height="50px" width="50px" />
-      <img src="/img/setting.webp" style="float:right;display:inline-block; height="50px" width="50px" />
+			<img src="/img/help.webp" style="float:left;" class="mainPageButton" />
+      <img src="/img/setting.webp" style="float:right;" class="mainPageButton" />
 			<div class="jumbotron">
 				<h1 id="lbtitle">
 					LibearWork
