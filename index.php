@@ -27,12 +27,21 @@
 				</h1>
 			</div>
       <form action="pages/workTableRegUser.php" class="mainPageForm">
+<p>加入组</p>
+<hr>
+<input name="groupID" type="text">
+<button type="submit">加入</button>
       </form>
 <br>
       <form action="pages/createNewGroup.php" class="mainPageForm">
+<p>创建组</p>
+<hr>
+<input name="groupID" type="text">
+<button type="submit">创建</button>
       </form>
 		</div>
 	</div>
 </div>
+<footer>LibearWork，©neila 2022-2022。本软件为开源软件。</footer>
   </body>
 </html>
