@@ -24,9 +24,9 @@
 					LibearWork
 				</h1>
 			</div>
-      <form action="pages/workTableRegUser.php">
+      <form action="pages/workTableRegUser.php" class="mainPageForm">
       </form>
-      <form action="pages/createNewGroup.php">
+      <form action="pages/createNewGroup.php" class="mainPageForm">
       </form>
 		</div>
 	</div>
