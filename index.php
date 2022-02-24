@@ -27,17 +27,22 @@
 				</h1>
 			</div>
       <form action="pages/workTableRegUser.php" class="mainPageForm">
+<br>
 <p>加入组</p>
 <hr>
 <input name="groupID" type="text">
-<button type="submit">加入</button>
+<br>
+<button type="submit" class="mainPageSubmitBtn">加入</button>
       </form>
 <br>
       <form action="pages/createNewGroup.php" class="mainPageForm">
+<br>
 <p>创建组</p>
 <hr>
 <input name="groupID" type="text">
-<button type="submit">创建</button>
+<br>
+<button type="submit" class="mainPageSubmitBtn">创建</button>
+<br>
       </form>
 		</div>
 	</div>
