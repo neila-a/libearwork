@@ -25,6 +25,9 @@
             integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
             crossorigin="anonymous"
         ></script>
+        <script
+                src="https://cdn.staticfile.org/jquery/3.6.0/jquery.js"
+        ></script>
         <link rel="stylesheet" href="/style.css" />
     </head>
     <body>
