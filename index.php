@@ -18,7 +18,7 @@
 			<img src="/img/help.webp" style="float:left;display:inline-block;" height="50px" width="50px" />
       <img src="/img/setting.webp" style="float:right;display:inline-block; height="50px" width="50px" />
 			<div class="jumbotron">
-				<h1>
+				<h1 id="lbtitle">
 					LibearWork
 				</h1>
 			</div>
