@@ -26,6 +26,7 @@
 			</div>
       <form action="pages/workTableRegUser.php" class="mainPageForm">
       </form>
+<br>
       <form action="pages/createNewGroup.php" class="mainPageForm">
       </form>
 		</div>
