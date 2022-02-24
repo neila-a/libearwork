@@ -5,6 +5,9 @@
     <head>
         <title>LibearWork</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script
+                src="https://cdn.staticfile.org/jquery/3.6.0/jquery.js"
+        ></script>
         <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
         <link
             rel="stylesheet"
@@ -24,9 +27,6 @@
             src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
             integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
             crossorigin="anonymous"
-        ></script>
-        <script
-                src="https://cdn.staticfile.org/jquery/3.6.0/jquery.js"
         ></script>
         <link rel="stylesheet" href="/style.css" />
     </head>
