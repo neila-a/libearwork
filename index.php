@@ -18,7 +18,9 @@
 	<div class="row clearfix">
 		<div class="col-md-12 column">
 			<img src="/img/help.webp" style="float:left;" class="mainPageButton" />
+<a href="/pages/setting.php">
       <img src="/img/setting.webp" style="float:right;" class="mainPageButton" />
+</a>
 			<div class="jumbotron">
 				<h1 id="lbtitle">
 					LibearWork
