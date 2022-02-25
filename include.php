@@ -2,7 +2,7 @@
 $source = <<<HTML
 <meta name="viewport" content="width=device-width, initial-scale=1" />
         <script
-                src="/lib/jquery-3.6.0.min.js"
+                src="/lib/jquery.min.js"
         ></script>
         <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
         <link
