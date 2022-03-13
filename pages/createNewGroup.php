@@ -2,7 +2,7 @@
 require '../include.php';
 $dirname = "../data/" . $_GET["groupID"];
 mkdir($dirname,0777,true);
-$header = "location:workTableRegAdmin.php?groupID=" . $_GET["groupID"]; 
+$header = "location:workTableReg.php?type=admin&groupID=" . $_GET["groupID"]; 
 header($header);
 exit;
 ?>
