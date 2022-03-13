@@ -31,7 +31,8 @@ require './include.php';
                             <h1>加入组</h1>
                         </div>
 				        <div class="form-group">
-					        <label for="groupID">组ID</label><input type="text" class="form-control" name="groupID" />
+					        <label for="groupID">组ID</label>
+                            <input type="text" class="form-control" name="groupID" />
 				        </div>
                         <button type="submit" class="btn btn-default">加入</button>
 			        </form>
@@ -42,9 +43,9 @@ require './include.php';
                         </div>
                         <div class="form-group">
                             <label for="groupID">组ID</label>
-                            <input name="groupID" type="text" />
+                            <input type="text" class="form-control" name="groupID" />
                         </div>
-                        <button type="submit" class="mainPageSubmitBtn">创建</button>
+                        <button type="submit" class="btn btn-default">创建</button>
                     </form>
                 </div>
             </div>
