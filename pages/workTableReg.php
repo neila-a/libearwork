@@ -17,7 +17,7 @@
 		<div class="form-group">
             <input type="text" class="form-control" name="groupID" />
 		</div>
-        <button type="submit" class="btn btn-default" style="background-color: #1e9fff;">创建</button>
+        <button type="submit" class="btn btn-default">创建</button>
 	</form>
 </body>
 </html>
