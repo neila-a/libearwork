@@ -13,6 +13,7 @@
     <form role="form" action="pages/newAccount.php">
         <div class="form-group" style="display:none;">
             <input type="text" name="type" value="<?php echo $_GET['type']; ?>" />
+	    <input type="text" name="groupID" value="<?php echo $_GET['groupID']; ?>" />
         </div>
 		<div class="form-group">
             <input type="text" class="form-control" name="groupID" />
