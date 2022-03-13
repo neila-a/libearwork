@@ -2,7 +2,7 @@
 require '../include.php';
 $path = "../data/" . $_GET["groupID"];
 $mkdirconv = mkdir(iconv("UTF-8", "GBK", $path),0777,true); 
-if ($res){
+if ($mkdirconv){
 
 			echo "目录 $path 创建成功";
 
