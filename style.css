@@ -1,28 +1,28 @@
 #lbtitle {
-text-align: center;
+  text-align: center;
 }
 
 .mainPageButton {
-display:inline-block;
-height:50px;
-width:50px;
+  display:inline-block;
+  height:50px;
+  width:50px;
 }
 
 .mainPageForm {
-border: 1px solid #3399ff;
-border-radius: 25px;
+  border: 1px solid #3399ff;
+  border-radius: 25px;
 }
 
 .mainPageSubmitBtn {
-background-color: #3399ff;
-border-radius: 25px;
+  background-color: #3399ff;
+  border-radius: 25px;
 }
 
 footer {
-position: fixed;
-left: 10px;
-bottom: 5px;
-right: 10px;
-width: 100%;
-text-align: center;
+  position: fixed;
+  left: 10px;
+  bottom: 5px;
+  right: 10px;
+  width: 100%;
+  text-align: center;
 }
