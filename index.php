@@ -26,13 +26,15 @@ require './include.php';
                     <div class="jumbotron">
                         <h1 id="lbtitle">LibearWork</h1>
                     </div>
-                    <form action="pages/workTableRegUser.php" class="mainPageForm">
-                        <p>加入组</p>
-                        <hr />
-                        <input name="groupID" type="text" />
-                        <br />
-                        <button type="submit" class="mainPageSubmitBtn">加入</button>
-                    </form>
+                    <form role="form" action="pages/workTableRegUser.php">
+                        <div class="form-group">
+                            <h1>加入组</h1>
+                        </div>
+				        <div class="form-group">
+					        <label for="groupID">Email address</label><input type="text" class="form-control" name="groupID" />
+				        </div>
+                        <button type="submit" class="btn btn-default">加入</button>
+			        </form>
                     <br />
                     <form action="pages/createNewGroup.php" class="mainPageForm">
                         <p>创建组</p>
