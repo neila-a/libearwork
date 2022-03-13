@@ -31,16 +31,19 @@ require './include.php';
                             <h1>加入组</h1>
                         </div>
 				        <div class="form-group">
-					        <label for="groupID">Email address</label><input type="text" class="form-control" name="groupID" />
+					        <label for="groupID">组ID</label><input type="text" class="form-control" name="groupID" />
 				        </div>
                         <button type="submit" class="btn btn-default">加入</button>
 			        </form>
                     <br />
-                    <form action="pages/createNewGroup.php" class="mainPageForm">
-                        <p>创建组</p>
-                        <hr />
-                        <input name="groupID" type="text" />
-                        <br />
+                    <form action="pages/createNewGroup.php"  role="form">
+                        <div class="form-group">
+                            <h1>创建组</h1>
+                        </div>
+                        <div class="form-group">
+                            <label for="groupID">组ID</label>
+                            <input name="groupID" type="text" />
+                        </div>
                         <button type="submit" class="mainPageSubmitBtn">创建</button>
                     </form>
                 </div>
