@@ -24,7 +24,7 @@ require './include.php';
                         />
                     </a>
                     <div class="jumbotron">
-                        <h1 id="lbtitle">LibearWork</h1>
+                        <h1 class="centerh1">LibearWork</h1>
                     </div>
                     <form role="form" action="pages/workTableRegUser.php">
                         <div class="form-group">
