@@ -1,25 +1,10 @@
 <?php
-require '../include.php';
-$path = "../data/" . $_GET["groupID"];
-$mkdirconv = mkdir(iconv("UTF-8", "GBK", $path),0777,true); 
-if ($mkdirconv){
-
-			echo "目录 $path 创建成功";
-
-		}else{
-
-			echo "目录 $path 创建失败";
-
-		}exit;
-$header = "location:workTableReg.php?type=admin&groupID=" . $_GET["groupID"]; 
-header($header);
-exit;
+    $groupID = $_GET["groupID"];
+    $jsonfile = fopen("../data.json", "a+");
+    $data = json_decode($jsonfile, true);
+    $data["groups"][$groupID] = array();
+    fwrite("../data.json",json_encode($data));
+    fclose("../data.json");
+    echo "<script>window.location.href = http://libearwork.herokuapp.com/pages/workTableReg.php?type=admin&groupID=" . $groupID . ";</script>";
+    exit;
 ?>
-<!DOCTYPE html>
-<html>
-<head>
-<?=$source?>
-</head>
-<body>
-</body>
-</html>
